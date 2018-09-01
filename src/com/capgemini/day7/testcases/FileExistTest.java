@@ -8,10 +8,9 @@ import org.junit.jupiter.api.Test;
 
 class FileExistTest {
 	@Test
-	void testFileExistTest() {
-			File  file=new File("C:\\Mandy\\Manju\\");
+	void testFile() {
+			File  file=new File("C:\\Users\\masripat\\Documents\\Java.pdf");
 			assertEquals(true, file.exists());
-
 		
 		}
 

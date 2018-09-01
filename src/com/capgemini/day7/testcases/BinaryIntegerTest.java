@@ -1,0 +1,23 @@
+package com.capgemini.day7.testcases;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.io.File;
+
+import org.junit.jupiter.api.Test;
+
+import com.capgemini.day7.BinaryInteger;
+
+
+class BinaryIntegerTest {
+
+	
+		@Test
+		void testBinaryInteger() {
+			File file = new File("C:\\Users\\masripat\\Documents\\Java.pdf");
+			assertEquals(1,BinaryInteger.writeBinary(file));
+		}
+
+	}
+
+
